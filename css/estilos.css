@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2? family= Raleway:ital,wght@0,100;0,500;0,700;0,900;1,100 & display=swap');
+
+*   {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Raleway";
+    }
+
+body { 
+        background-color: #cfcba6;
+    
+     } 
+
+img {
+        max-width: 100%;
+    }
+
+.top {
+        display: flex;
+}
+
+.logo {
+        padding: 1rem;
+      }
+
+.logo>h1 {
+        display: none;
+}
+
+.login {
+        display: flex;
+        height: 100%;
+        margin: 1rem;
+        padding: 1rem;
+        gap: 1rem;
+        font-size: 20px;
+        font-weight: 500;
+        list-style-type: none;  
+}
+
+.login>p {
+    font-size: 12px;
+    color: #1a4e52;
+}
+
+
+.user {
+    background-color: #78cc47;
+    color: #1a4e52;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+ 
+.menu {     
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #2d6a75cc;
+    padding: 0.5rem;
+}
+
+.menu-link {
+    color: #cfcba6;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.photo-slide {
+    display: flex;
+    margin: 1rem;
+    padding: 0.5rem;
+    justify-content: center;
+
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.image-product {
+    display: block;
+    margin: 1rem;
+    padding: 0.5rem;
+    
+
+}
+
+.slide1 {
+    border-radius: 10px;
+    border-color: #bcac82;
+    border: 2px;
+}
+
+.photo-description {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-description>p {
+    color: #2d6a75;
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2d6a75;
+    font-size: 1.3rem;
+    text-align: justify;
+    margin: bottom 1rem;
+}
+
+.columna>p {
+    width: 75%;
+    padding-bottom: 1rem;
+}
+
+.servicios-jt {
+    background-color: #bcac82;
+    color: #2d6a75;
+    padding-block: 2rem;
+    position: relative;
+}
+
+.servicio-base {
+    max-width: 1000px;
+    display: flex;
+    margin-inline: auto;
+    gap: 2rem;
+}
+
+.servicio {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 1rem;
+}
+
+.servicio>h3 {
+    color: #1a4e52;
+    font-weight: 700;
+}
+
+.image-product>p {
+    color: #2d6a75;
+    background-color: #bcac82;
+    font-weight: 700;
+
+}
+
+.footer {
+    display: flex;
+    background-color: #1a4e52;
+    justify-content: center;
+}
+
+.menu-footer {
+	   
+       padding: 1rem;
+       list-style-type: none;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+
+.footer-item {
+    font-size: 14px;
+    font-weight: 100;
+    padding: 5px;
+    color: #cfcba6;
+    text-decoration: none;
+    display: block;
+}
+h3 {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    color: #78cc47;
+}
+
+/*
+    paleta de colores
+    beige fuerte: #bcac82
+    beige claro: #cfcba6
+    azul oscuro: #1a4e52
+    azul claro: #2d6a75
+    verde: #78cc47
+*/
+  
