@@ -17,7 +17,12 @@ img {
     }
 
 .top {
-        display: flex;
+        display: grid;
+        grid-template-columns: 3fr 5fr 3fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "logo" "banner-sup" "user";
+        
 }
 
 .logo {
@@ -30,27 +35,43 @@ img {
 
 .login {
         display: flex;
-        height: 100%;
-        margin: 1rem;
+        flex-direction: column;
+        margin: 0.5rem;
         padding: 1rem;
-        gap: 1rem;
-        font-size: 20px;
+        gap: 0.5rem;
+        font-size: 18px;
         font-weight: 500;
         list-style-type: none;  
+        align-items: center;
 }
 
-.login>p {
-    font-size: 12px;
+
+.txt-log {
+    font-size: 14px;
     color: #1a4e52;
 }
 
+.usuario {
+    display: flex;
+    flex-direction: row;
+}
 
+.iconredes {
+    margin-top: 30px;
+}
 .user {
     background-color: #78cc47;
     color: #1a4e52;
     border-radius: 5px;
+    margin: 5px;
     padding: 5px;
     text-decoration: none;
+}
+
+.nav {
+    position: sticky;
+    width: 100%;
+    top: 0;
 }
  
 .menu {     
@@ -60,6 +81,7 @@ img {
     gap: 2rem;
     background-color: #2d6a75cc;
     padding: 0.5rem;
+
 }
 
 .menu-link {
@@ -101,6 +123,7 @@ img {
 .photo-description {
     display: flex;
     justify-content: center;
+    width: 80vh;
 }
 
 .photo-description>p {
@@ -152,6 +175,18 @@ img {
     font-weight: 700;
 }
 
+.autos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.futbol {
+    border-top: #1a4e52;
+    border: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .image-product>p {
     color: #2d6a75;
     background-color: #bcac82;
@@ -159,25 +194,42 @@ img {
 
 }
 
+/*se agrega grid al footer
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "menu-footer" "pago-footer" "atencion-footer" "politicas-footer" "mapa-footer";
+    background-color: #1a4e52;
+    align-items: start;
+    */
+
 .footer {
     display: flex;
-    background-color: #1a4e52;
     justify-content: center;
+   background-color: #1a4e52;
+}
+
+.footer > * {
+    width: 100%;
 }
 
 .menu-footer {
-	   
-       padding: 1rem;
+    margin-left: 2rem;
+	   padding: 1rem;
        list-style-type: none;
+
 }
 
 .info-footer {
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    padding-top: 2rem;
+    gap: 1rem;
 }
 
+.footer-block {
+    margin-top: 1rem;
+}
 
 .footer-item {
     font-size: 14px;
@@ -187,6 +239,7 @@ img {
     text-decoration: none;
     display: block;
 }
+
 h3 {
     font-family: Raleway;
     font-size: 20px;
