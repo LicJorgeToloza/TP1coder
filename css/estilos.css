@@ -272,7 +272,7 @@ h3 {
 */
   
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .top {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -313,7 +313,7 @@ h3 {
 }
 
 }
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
     .top {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -350,7 +350,7 @@ h3 {
 }
 }
 
-@media (min-width: 320px) and (max-width: 576px) {
+@media (min-width: 280px) and (max-width: 576px) {
     .top {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
