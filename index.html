@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-    <!-- Aqui va el trababajo, le faltan detalles,las paginas: registro, usuario, sucursales, contacto y productos faltan desarrollar. Y la demas estan con texto de ejemplo, la idea no es hacer un sitio mio, es de lo que mas elementos tengo, como para generar relleno para un modelo de pagina  -->
+    <!-- Aqui va la segunda parte del trababajo, apliqué un slider de boostrap pero no encontré la forma de editar el codigo para que me deje el menú tal como se ve en las demas paginas   -->
     <header class="header">
 
         <div class="top">
@@ -53,46 +53,58 @@
     </header>
     <main>
         
-    <div class="slide-principal">   
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./images/marca-COLORES.jpg" class="d-block w-100" alt="imagen1">
+    <div class="container">
+        <div class="slide-principal">   
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/marca-COLORES.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/Disenador-grafico.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/paletas-colores.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-              <div class="carousel-item">
-                <img src="./images/01-Ronald-Shakespear.jpg" class="d-block w-100" alt="imagen2">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/Disenador-grafico.jpg" class="d-block w-100" alt="imagen3">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+        </div> 
+        <div class="row">
+          <div class="col-7">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam similique voluptate sapiente quia nam nostrum ut fugiat officia. Obcaecati deleniti dolor consequuntur, incidunt nesciunt illo nisi ab assumenda suscipit architecto?
+              Recusandae quae exercitationem hic eius autem necessitatibus deserunt dolorem explicabo eum amet placeat eos velit obcaecati natus tenetur, dolores vitae ullam ipsum. Architecto reiciendis dolorem unde ea, voluptate veniam praesentium.
+              Commodi id veniam ea itaque inventore dolor, dolorem nesciunt impedit dignissimos accusamus nam suscipit cum nisi fugiat, sequi a porro rem. Odit id doloribus illo eos recusandae pariatur, sapiente minima.
+              Laboriosam rem repudiandae magnam quia mollitia nostrum nam, odio aut repellendus at tempora dolore placeat fugiat voluptatem in eius perspiciatis culpa quae. Voluptatibus corporis odit earum iste tempora similique obcaecati.
+              Cumque, sed.</p>
           </div>
-    </div> 
-      <div class="photo-description">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam similique voluptate sapiente quia nam nostrum ut fugiat officia. Obcaecati deleniti dolor consequuntur, incidunt nesciunt illo nisi ab assumenda suscipit architecto?
-        Recusandae quae exercitationem hic eius autem necessitatibus deserunt dolorem explicabo eum amet placeat eos velit obcaecati natus tenetur, dolores vitae ullam ipsum. Architecto reiciendis dolorem unde ea, voluptate veniam praesentium.
-        Commodi id veniam ea itaque inventore dolor, dolorem nesciunt impedit dignissimos accusamus nam suscipit cum nisi fugiat, sequi a porro rem. Odit id doloribus illo eos recusandae pariatur, sapiente minima.
-        Laboriosam rem repudiandae magnam quia mollitia nostrum nam, odio aut repellendus at tempora dolore placeat fugiat voluptatem in eius perspiciatis culpa quae. Voluptatibus corporis odit earum iste tempora similique obcaecati.
-        Cumque, sed. Veniam quis eos possimus? Laboriosam iusto id eveniet expedita quasi. Nesciunt, veritatis quibusdam porro officiis suscipit ratione, facere inventore assumenda mollitia necessitatibus sunt vel laborum asperiores quas repellat.
-        Voluptates sunt perferendis necessitatibus earum cumque molestias, incidunt vel aut atque impedit doloribus eum, inventore nobis reiciendis, totam nulla itaque magni. Itaque voluptatibus nulla fugiat aliquid delectus ad omnis magni!
-        Porro cumque enim ea ipsa debitis voluptatum perferendis maxime nesciunt error, quam nisi omnis! Assumenda pariatur ipsam consequatur necessitatibus harum iusto, doloribus ut laboriosam! Quod nostrum sint temporibus recusandae at.
-        Deserunt dolorum veritatis nostrum exercitationem eveniet itaque voluptatem, autem distinctio? Non harum, recusandae voluptatum nam ratione cum quaerat aspernatur unde sequi odit atque culpa illo odio adipisci quod omnis eius.
-        Iusto, mollitia itaque. Nisi, pariatur quae totam doloremque tempore corrupti odit explicabo laboriosam cum aliquid. Sapiente tenetur pariatur ipsam aperiam recusandae fugit doloremque obcaecati. Nisi natus ut ex omnis eos.
-        Hic eius quos aut laboriosam molestiae cumque reprehenderit blanditiis eum nesciunt quia. Inventore atque reprehenderit fugiat dolore laudantium quisquam possimus similique, velit corrupti consectetur accusantium ut animi in, necessitatibus alias! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus voluptates placeat labore laudantium ad est, neque temporibus consequatur perferendis ab cupiditate.</p>
+          <div class="col-5">
+              <p> Veniam quis eos possimus? Laboriosam iusto id eveniet expedita quasi. Nesciunt, veritatis quibusdam porro officiis suscipit ratione, facere inventore assumenda mollitia necessitatibus sunt vel laborum asperiores quas repellat.
+                  Voluptates sunt perferendis necessitatibus earum cumque molestias, incidunt vel aut atque impedit doloribus eum, inventore nobis reiciendis, totam nulla itaque magni. Itaque voluptatibus nulla fugiat aliquid delectus ad omnis magni!
+                  reprehenderit blanditiis eum nesciunt quia.
+              </p>
+          </div>
+        </div>
       </div>
-
+    
+      
+  
     </main>
     
     <footer class="footer">
-        
+        <div class="line-menu-footer">
             <ul class="menu-footer">
                 <li><a class="footer-item" href="./index.html">Inicio</a></li>
                 <li><a class="footer-item" href="./pages/nosotros.html">Nosotros</a></li>
@@ -100,38 +112,35 @@
                 <li><a class="footer-item" href="./pages/servicios.html">Servicios</a></li>
                 <li><a class="footer-item" href="./pages/contacto.html">Contacto</a></li>
             </ul>
+        </div>
 
-            <div class="pago-footer info-footer" >
-                <div class="footer-block">
-                    <h3>PAGOS</h3>
-                    <a class="footer-item" href="https://www.mercadopago.com.ar/" target="_blank">Mercado Pago</a>
-                    <a class="footer-item" href="./pages/promociones.html">Promociones y ofertas</a>
-                </div>
+        <div class="pago-footer info-footer" >
+            <div class="footer-block">
+                <h3>PAGOS</h3>
+                <a class="footer-item" href="https://www.mercadopago.com.ar/" target="_blank">Mercado Pago</a>
+                <a class="footer-item" href="./pages/promociones.html">Promociones y ofertas</a>
             </div>
-            <div class="atencion-footer">
-                <div class="footer-block">
-                    <h3>ATENCION</h3>
-                    <a class="footer-item" href="https://wa.me/+5493512662791/?text=texto" target="_blank">Whatsapp</a>
-                    <a class="footer-item" href="./pages/sucursales-horarios.html">Sucursales y Horarios</a>
-                </div>
+        </div>
+        <div class="atencion-footer">
+            <div class="footer-block">
+                <h3>ATENCION</h3>
+                <a class="footer-item" href="https://wa.me/+5493512662791/?text=texto" target="_blank">Whatsapp</a>
+                <a class="footer-item" href="../pages/sucursales-horarios.html">Sucursales y Horarios</a>
             </div>
-            <div class="politicas-footer">
-                <div class="footer-block">
-                    <h3>POLITICAS</h3>
-                    <a class="footer-item" href="./pages/promociones.html">Envios</a>
-                    <a class="footer-item" href="./pages/promociones.html">Devoluciones</a>
-                </div>
+        </div>
+        <div class="politicas-footer">
+            <div class="footer-block">
+                <h3>POLITICAS</h3>
+                <a class="footer-item" href="../pages/promociones.html">Envios</a>
+                <a class="footer-item" href="../pages/promociones.html">Devoluciones</a>
             </div>
-            <div class="mapa-footer">
-                <div class="footer-block">
-                    <h3>MAPA UBIC.</h3>
-                    
-                </div>
-            </div>
-                
-            </div>
+
+        </div>
+            
+        </div>
 
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
