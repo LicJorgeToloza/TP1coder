@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2? family= Raleway:ital,wght@0,100;0,500;0,700;0,900;1,100 & display=swap');
+
+
+    *   {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Raleway";
+    }
+
+body { 
+        background-color: #cfcba6;
+     } 
+
+img {
+        max-width: 100%;
+    }
+
+.top {
+        display: grid;
+        grid-template-columns: 3fr 6fr 3fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "logo" "banner-sup" "user";
+}
+
+.banner-sup{
+    width: 100%;
+}
+
+.logo {
+        padding: 1rem;
+      }
+
+.logo>h1 {
+        display: none;
+}
+
+.login {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem;
+        padding: 10px;
+        gap: 0.5rem;
+        font-size: 0.75rem;
+        font-weight: 500;
+        list-style-type: none;  
+        align-items: center;
+}
+
+
+.txt-log {
+    font-size: 14px;
+    color: #1a4e52;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: row;
+}
+
+.iconredes {
+    font-size: large;
+    color: #1a4e52;
+    display: flex;
+    gap: 0.75rem;
+}
+.user {
+    background-color: #78cc47;
+    color: #1a4e52;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.user:hover {
+    background-color: #1a4e52;
+    color: #78cc47;
+
+}
+
+/*menu*/
+.nav {
+    background-color: #1a4e52;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+ 
+.menu {     
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #2d6a75cc;
+    padding: 0.5rem;
+    max-width: 100%;
+}
+
+.menu-link {
+    color: #cfcba6;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/*carrusel de inicio*/
+.container {
+    width: 100vh;
+}
+
+.photo-slide {
+    display: flex;
+    margin: 1rem;
+    padding: 0.5rem;
+    justify-content: center;
+}
+
+ /*registro*/
+
+.registro {
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#1a4e52;
+}
+
+.registro-cliente {
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.registro > p {
+    padding: 0.5rem;
+}
+.plan {
+    list-style-type: none;
+    justify-content: left;
+}
+
+/*usuario : height: 100vh;*/
+.panel-usuario {
+    height: 100vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "diseñomarca" "marketingdig" "disweb"
+        "grafycartel" "analisis" "plan";
+}
+
+.marco {
+    background-color:#2d6a75;
+    border-radius: 10px;
+    margin: 2rem;
+    color: #78cc47;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.75rem;
+    margin: 0.5rem;
+}
+
+/*productos*/
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.image-product {
+    display: block;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.slide-principal {
+    max-width: 80%;
+}
+
+.carousel {
+    margin-left: 20rem;
+    justify-content: center;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    /*width: 80vh;*/
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.row p {
+    color: #2d6a75;
+    font-size: 12px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* margin-bottom: 1rem; */
+
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2d6a75;
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom:  1rem;
+}
+
+.columna>p {
+    width: 75%;
+    padding-bottom: 1rem;
+}
+
+/*servicios*/
+.servicios-jt {
+    background-color: #bcac82;
+    color: #2d6a75;
+    padding: 1rem;
+    position: relative;
+}
+
+.servicio-base {
+    max-width: 100%;
+    display: flex;
+    margin-inline: auto;
+    gap: 2rem;
+}
+
+.servicio {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 1rem;
+}
+
+.servicio>h3 {
+    color: #1a4e52;
+    font-weight: 700;
+}
+
+/*productos*/
+.autos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.futbol {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image-product>p {
+    color: #2d6a75;
+    background-color: #bcac82;
+    font-weight: 700;
+
+}
+
+/*footer*/
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "menu-footer" "pago-footer" "atencion-footer" "politicas-footer";
+    background-color: #1a4e52;
+    align-items: start;
+    justify-content:start;
+}
+
+
+.footer > * {
+    width: 100%;
+}
+
+.line-menu-footer {
+    border-right-color: #78cc47;
+    border-right: 2px;
+}
+
+.menu-footer {
+       padding: 2rem;
+       list-style-type: none;
+
+}
+
+.info-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-block {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.footer-item {
+    font-size: 14px;
+    font-weight: 100;
+    padding: 5px;
+    color: #cfcba6;
+    text-decoration: none;
+    display: block;
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    color: #78cc47;
+}
+
+/*
+    paleta de colores
+    beige fuerte: #bcac82
+    beige claro: #cfcba6
+    azul oscuro: #1a4e52
+    azul claro: #2d6a75
+    verde: #78cc47
+*/
+  
+
+@media (min-width: 801px) and (max-width: 1024px) {
+    .top {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+}
+.logo{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.login{
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
+.banner-sup{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-link {
+    color: #cfcba6;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.menu {
+    max-width: 100%;
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    color: #78cc47;
+}
+
+.servicio-base {
+    padding: 1rem;
+    gap: 2rem;
+ 
+}
+
+.imagendeservicio {
+    max-width: 75%;
+}
+
+.descrip-serv{
+    font-size: 0.75rem;
+    padding: 0.5rem;
+}
+
+}
+
+
+@media (min-width: 551px) and (max-width: 800px) {
+    .top {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+}
+.logo{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.login{
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 1rem;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    list-style-type: none;  
+    align-items: center;
+}
+
+.banner-sup{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    width: 100%;
+}
+
+.menu-link {
+    color: #cfcba6;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.menu {
+    max-width: 100%;
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    color: #78cc47;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2d6a75;
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom:  0.5rem;
+}
+
+.columna>p {
+    width: 75%;
+    padding-bottom: 0.5rem;
+}
+
+.productos {
+    gap: 1rem;
+}
+
+.autos {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.futbol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.servicio-base {
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.imagendeservicio {
+    max-width: 75%;
+}
+
+.servicio-titulo {
+    font-size: 1.3rem;
+}
+
+.descrip-serv{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+
+}
+
+@media (min-width: 300px) and (max-width: 550px) {
+    .top {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+        max-width: 100%;
+}
+
+.logo{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 0.5rem;
+}
+
+.login{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    margin: 0.5rem;
+    padding: 5px;
+    gap: 10;
+    font-size: 0.5rem;
+}
+
+.txt-log {
+    font-size: 0.5rem;
+    color: #1a4e52;
+}
+
+.iconredes {
+    margin-top: 5px;
+}
+.banner-sup{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    width: 100%;
+}
+
+
+
+
+
+/*.footer-item {
+
+    display: block;
+}*/
+
+.menu {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.menu-link {
+    color: #cfcba6;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.menu-item:hover {
+    background-color: #1a4e52;
+}
+
+.container {
+    width: 100%;
+}
+
+.slide-principal {
+    max-width: 100%;
+}
+
+.carousel {
+    margin-left: 0.5rem;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /*width: 80vh;*/
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.row p {
+    color: #2d6a75;
+    font-size: 18px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* margin-bottom: 1rem; */
+
+}
+
+.photo-slide {
+    margin: 0.3rem;
+    padding: 0.3rem;
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #78cc47;
+    text-align: center;
+}
+
+.columna {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom:  0.5rem;
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+.autos {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.futbol {
+    border-top: #1a4e52;
+    border: 2px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.imagendeservicio {
+    max-width: 50%;
+}
+
+.descrip-serv{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.servicio-base {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr 1fr;
+    grid-area: 
+    "analisis"
+    "plan"
+    "trabajo";
+    margin-inline: auto;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #1a4e52;
+}
+
+.footer-item {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 5px;
+    text-align: center ;
+
+}
+
+.line-menu-footer {
+    align-items: center;
+}
+
+.menu-footer {
+    padding: 1rem;
+    list-style-type: none;
+    
+
+}
+
+.info-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-block {
+    margin-top: 0.75rem;
+    margin-left: 1rem;
+}
+
+.footer-item {
+    font-size: 20px;
+    font-weight: 100;
+    padding: 5px;
+    color: #cfcba6;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+}
+
+}
