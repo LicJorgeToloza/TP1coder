@@ -6,16 +6,18 @@
         padding: 0;
         box-sizing: border-box;
         font-family: "Raleway";
-    }
+}
 
 body { 
         background-color: #cfcba6;
-     } 
+} 
 
 img {
         max-width: 100%;
-    }
+}
 
+
+/*header*/
 .top {
         display: grid;
         grid-template-columns: 3fr 6fr 3fr;
@@ -82,9 +84,8 @@ img {
 
 /*menu*/
 .nav {
-    background-color: #1a4e52;
+    background-color: #2d6a75cc;
     width: 100%;
-    height: 100%;
     top: 0;
 }
  
@@ -107,17 +108,157 @@ img {
     font-weight: 500;
 }
 
-/*carrusel de inicio*/
-.container {
-    width: 100vh;
+.menu-link:hover {
+    color: #78cc47;
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: 700;
 }
+
+/*carrusel de inicio o index*/
+.container {
+    width: 100%;
+}
+
+.slide-principal {
+    display: flex;
+    justify-content: center;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2d6a75;
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom:  1rem;
+}
+
+.columna>p {
+    width: 95%;
+    padding-bottom: 1rem;
+}
+
+.carousel {
+    justify-content: center;
+}
+
+
+/*nosotros*/
 
 .photo-slide {
     display: flex;
     margin: 1rem;
     padding: 0.5rem;
     justify-content: center;
+    transition: 2s;
 }
+
+.photo-slide:hover {
+   transform: scale(0.9);
+}
+
+.row {
+    display: flex;
+    align-content: center;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.col-izquierda {
+    color: #78cc47;
+    font-weight:700;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* margin-bottom: 1rem; */
+}
+
+.col-derecha {
+    color: #2d6a75;
+    font-size: 1.2rem;
+    font-weight:500;
+}
+
+/*productos*/
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.image-product {
+    display: block;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.image-product>p {
+    color: #2d6a75;
+    background-color: #bcac82;
+    font-weight: 700;
+
+}
+
+.autos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.futbol {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/*servicios*/
+.servicios-jt {
+    background-color: #bcac82;
+    color: #2d6a75;
+    padding: 1rem;
+    position: relative;
+}
+
+.servicio-base {
+    max-width: 100%;
+    display: flex;
+    margin-inline: auto;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.servicio {
+    flex: 1;
+    text-align: center;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 1rem;
+}
+
+.servicio-titulo {
+    padding: 0.3rem;
+}
+
+.servicio-titulo:hover {
+    background-color:#cfcba6;
+    transform: scale(115%);
+}
+
+.servicio>h3 {
+    color: #1a4e52;
+    font-weight: 700;
+}
+
 
  /*registro*/
 
@@ -171,112 +312,6 @@ img {
     margin: 0.5rem;
 }
 
-/*productos*/
-.productos {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.image-product {
-    display: block;
-    margin: 1rem;
-    padding: 0.5rem;
-}
-
-.slide-principal {
-    max-width: 80%;
-}
-
-.carousel {
-    margin-left: 20rem;
-    justify-content: center;
-}
-
-
-.row {
-    display: flex;
-    justify-content: center;
-    padding-left: 15rem;
-    padding-right: 15rem;
-    /*width: 80vh;*/
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-
-.row p {
-    color: #2d6a75;
-    font-size: 12px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    /* margin-bottom: 1rem; */
-
-}
-
-.columna {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #2d6a75;
-    font-size: 1.3rem;
-    text-align: justify;
-    padding: 1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom:  1rem;
-}
-
-.columna>p {
-    width: 75%;
-    padding-bottom: 1rem;
-}
-
-/*servicios*/
-.servicios-jt {
-    background-color: #bcac82;
-    color: #2d6a75;
-    padding: 1rem;
-    position: relative;
-}
-
-.servicio-base {
-    max-width: 100%;
-    display: flex;
-    margin-inline: auto;
-    gap: 2rem;
-}
-
-.servicio {
-    flex: 1;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    gap: 1rem;
-}
-
-.servicio>h3 {
-    color: #1a4e52;
-    font-weight: 700;
-}
-
-/*productos*/
-.autos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.futbol {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.image-product>p {
-    color: #2d6a75;
-    background-color: #bcac82;
-    font-weight: 700;
-
-}
 
 /*footer*/
 .footer {
