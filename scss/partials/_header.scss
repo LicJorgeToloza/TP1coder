@@ -1,0 +1,82 @@
+.header {
+    .top {
+        display: grid;
+        grid-template-columns: 3fr 6fr 3fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "logo" "banner-sup" "user";
+        .banner-sup{
+            width: 100%;}
+        .logo {
+                padding: 1rem;
+                .h1 {
+                    display: none;}
+                
+              }
+              .login {
+                display: flex;
+                flex-direction: column;
+                margin: 0.5rem;
+                padding: 10px;
+                gap: 0.5rem;
+                font-size: 0.75rem;
+                font-weight: 500;
+                list-style-type: none;  
+                align-items: center;
+                .txt-log {
+                    font-size: 14px;
+                    color: $azul-osc;
+                }
+                .usuario {
+                    display: flex;
+                    flex-direction: row;
+                    .user {
+                        background-color: $verde;
+                        color: $azul-osc;
+                        border-radius: 5px;
+                        margin: 5px;
+                        padding: 5px;
+                        text-decoration: none;
+                        &:hover {
+                            background-color: $azul-osc;
+                            color: $verde;
+                        }
+                    }    
+                }
+                .iconredes {
+                    font-size: large;
+                    color: $azul-osc;
+                    display: flex;
+                    gap: 0.75rem;
+                }
+            }
+    }
+    .nav {
+        background-color: $azul-cla;
+        width: 100%;
+        top: 0;
+        .menu {     
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            background-color: $azul-cla;
+            padding: 0.5rem;
+            max-width: 100%;
+            .menu-link {
+                color: $beige-cla;
+                text-decoration: none;
+                font-family: Raleway;
+                font-size: 1rem;
+                font-weight: 500;
+                &:hover {
+                    color: $verde;
+                    text-decoration: none;
+                    font-family: Raleway;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

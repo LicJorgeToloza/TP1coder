@@ -1,0 +1,52 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "menu-footer" "pago-footer" "atencion-footer" "politicas-footer";
+    background-color: $azul-osc;
+    align-items: start;
+    justify-content:start;
+    .footer-block {
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        list-style-type: none;
+        display: block;
+    }
+    .footer > * {
+        width: 100%;
+    }
+    .menu-footer {
+        padding: 2rem;
+        list-style-type: none;
+        .footer-item {
+         font-size: 14px;
+         font-weight: 100;
+         padding: 5px;
+         color: $beige-cla;
+         text-decoration: none;
+         display: block;
+        .info-footer {
+             display: flex;
+             justify-content: center;
+             gap: 1rem;
+        }
+        .footer-block {
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            list-style-type: none;
+            text-decoration: none;
+            flex-direction: column;
+            
+        }
+        }
+    }
+    
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    color: $verde;
+}

@@ -1,0 +1,357 @@
+
+@media (min-width: 801px) and (max-width: 1024px) {
+    .top {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+}
+.logo{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.login{
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
+.banner-sup{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-link {
+    color: $beige-cla;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.menu {
+    max-width: 100%;
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    color: $verde;
+}
+
+.servicio-base {
+    padding: 1rem;
+    gap: 2rem;
+ 
+}
+
+.imagendeservicio {
+    max-width: 75%;
+}
+
+.descrip-serv{
+    font-size: 0.75rem;
+    padding: 0.5rem;
+}
+
+}
+
+
+@media (min-width: 551px) and (max-width: 800px) {
+    .top {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+}
+.logo{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.login{
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 1rem;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    list-style-type: none;  
+    align-items: center;
+}
+
+.banner-sup{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    width: 100%;
+}
+
+.menu-link {
+    color: $beige-cla;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.menu {
+    max-width: 100%;
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    color: $verde;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $azul-cla;
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom:  0.5rem;
+}
+
+.columna>p {
+    width: 75%;
+    padding-bottom: 0.5rem;
+}
+
+.productos {
+    gap: 1rem;
+}
+
+.autos {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.futbol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.servicio-base {
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.imagendeservicio {
+    max-width: 75%;
+}
+
+.servicio-titulo {
+    font-size: 1.3rem;
+}
+
+.descrip-serv{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+}
+
+@media (min-width: 300px) and (max-width: 550px) {
+    .top {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, auto);
+        max-width: 100%;
+}
+
+.logo{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 0.5rem;
+}
+
+.login{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    margin: 0.5rem;
+    padding: 5px;
+    gap: 10;
+    font-size: 0.5rem;
+}
+
+.txt-log {
+    font-size: 0.5rem;
+    color: $azul-osc;
+}
+
+.iconredes {
+    margin-top: 5px;
+}
+.banner-sup{
+    grid-column: 1/5;
+    grid-row: 2/3;
+    width: 100%;
+}
+
+.menu {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.menu-link {
+    color: $beige-cla;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.menu-item:hover {
+    background-color: $azul-osc;
+}
+
+.container {
+    width: 100%;
+}
+
+.slide-principal {
+    max-width: 100%;
+}
+
+.carousel {
+    margin-left: 0.5rem;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.row p {
+    color: $azul-cla;
+    font-size: 18px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.photo-slide {
+    margin: 0.3rem;
+    padding: 0.3rem;
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: $verde;
+    text-align: center;
+}
+
+.columna {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom:  0.5rem;
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+.autos {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.futbol {
+    border-top: $azul-osc;
+    border: 2px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.imagendeservicio {
+    max-width: 50%;
+}
+
+.descrip-serv{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.servicio-base {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr 1fr;
+    grid-area: 
+    "analisis"
+    "plan"
+    "trabajo";
+    margin-inline: auto;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: $azul-osc;
+}
+
+.footer-item {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 5px;
+    text-align: center ;
+}
+
+.line-menu-footer {
+    align-items: center;
+}
+
+.menu-footer {
+    padding: 1rem;
+    list-style-type: none;
+}
+
+.info-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-block {
+    margin-top: 0.75rem;
+    margin-left: 1rem;
+}
+
+.footer-item {
+    font-size: 20px;
+    font-weight: 100;
+    padding: 5px;
+    color: $beige-cla;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+}
+
+}

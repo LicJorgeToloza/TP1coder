@@ -1,0 +1,22 @@
+.registro {
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:$azul-osc;
+    .registro-cliente {
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        flex-direction: column;
+        text-align: center;
+        .registro > p {
+            padding: 0.5rem;
+        }
+        .plan {
+            list-style-type: none;
+            justify-content: left;
+        }
+    }
+}

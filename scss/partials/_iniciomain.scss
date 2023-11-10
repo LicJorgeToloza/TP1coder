@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    .slide-principal {
+        display: flex;
+        justify-content: center;
+        .carousel {
+            justify-content: center;
+        }
+    }
+    .columna {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $azul-cla;
+        font-size: 1.3rem;
+        text-align: justify;
+        padding: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom:  1rem;
+        .columna>p {
+            width: 95%;
+            padding-bottom: 1rem;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.autos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .productos {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        .image-product {
+            display: block;
+            margin: 1rem;
+            padding: 0.5rem;
+            .image-product>p {
+                color: $azul-cla;
+                background-color: $beige-frte;
+                font-weight: 700;
+            
+            }
+        }
+    }
+}
+
+.futbol {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .productos {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        .image-product {
+            display: block;
+            margin: 1rem;
+            padding: 0.5rem;
+            .image-product>p {
+                color: $azul-cla;
+                background-color: $beige-frte;
+                font-weight: 700;
+            
+            }
+        }
+    }
+}

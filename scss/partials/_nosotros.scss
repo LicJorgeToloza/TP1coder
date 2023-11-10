@@ -1,0 +1,34 @@
+.photo-slide {
+    display: flex;
+    margin: 1rem;
+    padding: 0.5rem;
+    justify-content: center;
+    transition: 2s;
+    &:hover {
+        transform: scale(0.9);
+     }
+}
+
+.row {
+    display: flex;
+    align-content: center;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    .col-izquierda {
+        color: $verde;
+        font-weight:700;
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        /* margin-bottom: 1rem; */
+    }
+    .col-derecha {
+        color: $azul-cla;
+        font-size: 1.2rem;
+        font-weight:500;
+    }
+}
