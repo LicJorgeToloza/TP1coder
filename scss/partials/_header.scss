@@ -44,13 +44,29 @@
                     }    
                 }
                 .iconredes {
-                    font-size: large;
-                    color: $azul-osc;
                     display: flex;
-                    gap: 0.75rem;
+                    font-size: 0.75rem;
+                    color: $azul-osc;
+                    gap: 0.25rem;
+                    .redes-soc {
+                        flex-direction: column;
+                        justify-content: center;
+                        text-align: center;
+                        align-items: center;
+                        .redes-icon {
+                            color: $azul-osc;
+                            text-decoration: none;
+                            font-size: 0.5rem;
+                            text-align: center;
+                        }  
+
+                    }
+                    
                 }
+
             }
     }
+    
     .nav {
         background-color: $azul-cla;
         width: 100%;

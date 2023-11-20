@@ -7,46 +7,68 @@
     background-color: $azul-osc;
     align-items: start;
     justify-content:start;
+    .menu-footer {
+        padding: 1rem;
+        list-style-type: none;
+        .footer-item {
+            flex-direction: column;
+            font-size: 14px;
+            font-weight: 100;
+            padding: 5px;
+            color: $beige-cla;
+            list-style-type: none;
+            text-decoration: none;
+            }
+    }
+    .pago-footer {
+        padding: 2rem;
+        list-style-type: none;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .atencion-footer {
+        padding: 2rem;
+        list-style-type: none;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .politicas-footer {
+        padding: 2rem;
+        list-style-type: none;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: column;
+    }
     .footer-block {
+        display:flex;
         margin-top: 1rem;
         margin-left: 1.5rem;
         list-style-type: none;
-        display: block;
+        text-decoration: none;
+        flex-direction: column;
+        justify-content: center;
+        .footer-item {
+            flex-direction: column;
+            font-size: 14px;
+            font-weight: 100;
+            padding: 5px;
+            color: $beige-cla;
+            list-style-type: none;
+            text-decoration: none;
+            }
     }
     .footer > * {
         width: 100%;
     }
-    .menu-footer {
-        padding: 2rem;
-        list-style-type: none;
-        .footer-item {
-         font-size: 14px;
-         font-weight: 100;
-         padding: 5px;
-         color: $beige-cla;
-         text-decoration: none;
-         display: block;
-        .info-footer {
-             display: flex;
-             justify-content: center;
-             gap: 1rem;
-        }
-        .footer-block {
-            margin-top: 1rem;
-            margin-left: 1.5rem;
-            list-style-type: none;
-            text-decoration: none;
-            flex-direction: column;
-            
-        }
-        }
+
+    h3 {
+            font-family: Raleway;
+            font-size: 18px;
+            font-weight: 500;
+            color: $verde;
     }
-    
+
 }
 
-h3 {
-    font-family: Raleway;
-    font-size: 20px;
-    font-weight: 500;
-    color: $verde;
-}
