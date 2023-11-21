@@ -184,7 +184,7 @@ img {
   margin: 1rem;
   padding: 0.5rem;
 }
-.autos .productos .image-product .image-product > p {
+.autos .productos .image-product p {
   color: #2d6a75;
   background-color: #bcac82;
   font-weight: 700;
@@ -204,7 +204,7 @@ img {
   margin: 1rem;
   padding: 0.5rem;
 }
-.futbol .productos .image-product .image-product > p {
+.futbol .productos .image-product p {
   color: #2d6a75;
   background-color: #bcac82;
   font-weight: 700;
@@ -238,6 +238,7 @@ img {
 }
 .servicios-jt .servicio-base .servicio .servicio-titulo {
   padding: 0.3rem;
+  color: #1a4e52;
 }
 .servicios-jt .servicio-base .servicio .servicio-titulo:hover {
   background-color: #cfcba6;
