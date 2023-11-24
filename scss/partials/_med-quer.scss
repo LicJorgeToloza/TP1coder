@@ -62,7 +62,6 @@
     }
 }
     
-    
 @media (min-width: 551px) and (max-width: 800px) {
     .header {
         .top {
@@ -361,28 +360,27 @@ h3 {
         display: grid;
         grid-template-columns: 1fr;
     }
+    
 /*servicios*/
-.servicio-jt {
+.servicios-jt {
     .servicio-base {
         max-width: 100%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-row: 1fr 1fr 1fr;
-        grid-area: 
-        "analisis"
-        "plan"
-        "trabajo";
-        margin-inline: auto;
-        gap: 2rem;
         padding: 1rem;
-        .imagendeservicio {
-            max-width: 50%;
-        }
-        .descrip-serv{
-            font-size: 1rem;
-            padding: 0.5rem;
+        flex-direction: column;
+        .servicio{
+            .imagendeservicio {
+                max-width: 40%;
+            }
+            .servicio-titulo {
+                font-size: 1.3rem;
+            }
+            .descrip-serv{
+                font-size: 1rem;
+                padding: 0.5rem;
+            }
         }
     }
+}
 }
     
 /*footer*/  
@@ -397,7 +395,7 @@ h3 {
             .footer-item {
                 font-size: 18px;
                 font-weight: 100;
-                padding: 5px;
+                padding: 15px;
                 text-align: center ;
                 list-style-type: none;
             }
@@ -417,4 +415,3 @@ h3 {
             }
         }
     }
-}

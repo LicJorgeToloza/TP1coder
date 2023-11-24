@@ -214,12 +214,10 @@ img {
   background-color: #bcac82;
   color: #2d6a75;
   padding: 1rem;
-  position: relative;
 }
 .servicios-jt .servicio-base {
   max-width: 100%;
   display: flex;
-  margin-inline: auto;
   padding: 1rem;
   gap: 1rem;
 }
@@ -676,55 +674,53 @@ img {
     grid-template-columns: 1fr;
   }
   /*servicios*/
-  .servicio-jt .servicio-base {
+  .servicios-jt .servicio-base {
     max-width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row: 1fr 1fr 1fr;
-    grid-area: "analisis" "plan" "trabajo";
-    margin-inline: auto;
-    gap: 2rem;
     padding: 1rem;
+    flex-direction: column;
   }
-  .servicio-jt .servicio-base .imagendeservicio {
-    max-width: 50%;
+  .servicios-jt .servicio-base .servicio .imagendeservicio {
+    max-width: 40%;
   }
-  .servicio-jt .servicio-base .descrip-serv {
+  .servicios-jt .servicio-base .servicio .servicio-titulo {
+    font-size: 1.3rem;
+  }
+  .servicios-jt .servicio-base .servicio .descrip-serv {
     font-size: 1rem;
     padding: 0.5rem;
   }
-  /*footer*/
-  .footer {
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: #1a4e52;
-    justify-content: center;
-  }
-  .footer .menu-footer {
-    padding: 1rem;
-    justify-content: center;
-  }
-  .footer .menu-footer .footer-item {
-    font-size: 18px;
-    font-weight: 100;
-    padding: 5px;
-    text-align: center;
-    list-style-type: none;
-  }
-  .footer .footer-block {
-    margin-top: 0.75rem;
-    margin-left: 1rem;
-  }
-  .footer .footer-block .footer-item {
-    font-size: 20px;
-    font-weight: 100;
-    padding: 5px;
-    color: #cfcba6;
-    text-decoration: none;
-    display: block;
-    align-items: center;
-    justify-content: center;
-  }
+}
+/*footer*/
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #1a4e52;
+  justify-content: center;
+}
+.footer .menu-footer {
+  padding: 1rem;
+  justify-content: center;
+}
+.footer .menu-footer .footer-item {
+  font-size: 18px;
+  font-weight: 100;
+  padding: 15px;
+  text-align: center;
+  list-style-type: none;
+}
+.footer .footer-block {
+  margin-top: 0.75rem;
+  margin-left: 1rem;
+}
+.footer .footer-block .footer-item {
+  font-size: 20px;
+  font-weight: 100;
+  padding: 5px;
+  color: #cfcba6;
+  text-decoration: none;
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
